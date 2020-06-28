@@ -3,10 +3,11 @@ package client
 import (
 	"errors"
 	"fmt"
-	"github.com/milkbobo/gopay/common"
-	"github.com/milkbobo/gopay/util"
 	"strings"
 	"time"
+
+	"github.com/yoooong/gopay/common"
+	"github.com/yoooong/gopay/util"
 )
 
 var defaultWechatAppClient *WechatAppClient
